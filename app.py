@@ -19,7 +19,7 @@ app.layout = html.Div(children=[
             dbc.Row([
                 dbc.Col([
                     dbc.Card([
-                        html.H2('CARNEIRO', style={'font-family': 'Voltaire', 'font-size': '30px'}),
+                        html.H2('DIEGO LAB', style={'font-family': 'Voltaire', 'font-size': '30px'}),
                         html.Hr(),
                         html.H5('Cidades:'),
                         dcc.Checklist(df['City'].unique(),df['City'].unique(), inline=True ,id='check_city', inputStyle={'margin-right': '5px', 'margin-left': '20px'}),
